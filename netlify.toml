@@ -1,0 +1,15 @@
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+    publish="dist/"
+    command="astro build"
+    NODE_ENV="production"
+    functions="./functions"
+    environment = { NODE_VERSION = "v16.19.0" }
+
+# Google Lighthouse Plugin
+# https://github.com/netlify/netlify-plugin-lighthouse#readme
+[[plugins]]
+package = "@netlify/plugin-lighthouse"
+    [plugins.inputs]
+    output_path = "src/pages/lighthouse.html"
