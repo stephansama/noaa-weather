@@ -2,7 +2,7 @@
 
 [build]
     publish="dist/"
-    command="astro build"
+    command="pnpm build"
     NODE_ENV="production"
     functions="./functions"
     environment = { NODE_VERSION = "v16.19.0" }
