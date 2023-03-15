@@ -7,3 +7,7 @@ Leaflet
 SvelteKit
 
 npx sb@next init
+
+[Google Autocomplete Places API](https://developers.google.com/maps/documentation/javascript/place-autocomplete)
+
+[NOAA API](https://www.weather.gov/documentation/services-web-api)
